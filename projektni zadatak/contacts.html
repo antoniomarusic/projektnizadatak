@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="description" content="some description">
+    <meta name="keywords" content="keyword 1, keyword 2, keyword 3, keyword 4, ...">
+
+
+    <meta itemprop="name" content="Hello Example">
+    <meta itemprop="description" content="Some description">
+    <meta itemprop="image" content="Your URL">
+
+
+    <meta property="og:title" content="Hello Example">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="Your URL">
+    <meta property="og:image" content="Your URL">
+    <meta property="og:description" content="Some description">
+    <meta property="article:tag" content="keyword 1, keyword 2, keyword 3, keyword 4, ...">
+
+
+    <meta name="twitter:title" content="Hello Example">
+    <meta name="twitter:description" content="Some description">
+
+    <meta name="author" content="amarusic@vvg.hr">
+
+    <link rel="icon" href="favicon/favicon.ico.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon/favicon.ico.ico" type="image/x-icon" />
+
+
+
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+    <title>Print4you</title>
+</head>
+<body>
+    <header>
+        <div class="hero-image" style="height: 250px;"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Proizvodi</a></li>
+                <li><a href="contacts.html">Kontakt</a></li>
+                <li><a href="about-us.html">O nama</a></li>
+                <li><a href="gallery.html">Galerija</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <h1>Kontakt</h1>
+    <div id="contact">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2781.2737946874336!2d16.23350001587856!3d45.80577477910652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47667abaa8a81ab1%3A0x31517bc7d8e693!2sJosipa%20Zori%C4%87a%2019%2C%2010370%2C%20Dugo%20Selo!5e0!3m2!1shr!2shr!4v1673269529264!5m2!1shr!2shr" width="100%" height="500" style="border:0;" allowfullscreen></iframe>
+        <form id="contact_form" name="contact_form" method="POST">
+            <label for="fname">Ime*</label>
+            <input type="text" id="fname" name="firstname" placeholder="Vaše ime..." required><br>
+
+            <label for="lname">Prezime *</label>
+            <input type="text" id="lname" name="lastname" placeholder="Vaše prezime..." required><br>
+            
+            <label for="lname">E-mail *</label>
+            <input type="email" id="email" name="email" placeholder="Vaš e-mail..." required><br>
+
+            <label for="country">Zemlja:</label>
+            <select id="country" name="country">
+              <option value="">Please select</option>
+              <option value="BE">Belgija</option>
+              <option value="HR" selected>Hrvatska</option>
+              <option value="MK">Makedonija</option>
+              <option value="BiH">BiH</option>
+              <option value="CG">Crna Gora</option>
+              <option value="SLO">Slovenija</option>
+            </select><br>
+
+           
+            <label for="subject">Opis:</label>
+            <textarea id="subject" name="subject" placeholder="" style="height:150px; vertical-align: middle "></textarea>
+
+            <input style="margin-left: 12%;" type="submit" value="Submit">
+        </form>
+    </div>
+</main>
+<footer style="margin-top: 400px;">
+    <p>Copyright &copy; 2023 Antonio Marušić. <a href="https://github.com/antoniomarusic?tab=repositories"><img
+                src="images/github.png" title="Github" alt="Github"></a></p>
+</footer>
+
+</body>
+</html>
